@@ -1,6 +1,7 @@
-baseURL      = "https://www.example.com/"
-title        = "Gallery Deluxe"
+baseURL      = "https://film.fyi"
+title        = "Film.fyi"
 disableKinds = ["section", "taxonomy", "term"]
+timeout = "3000s"
 
 [params]
     # Set to enable Plausible Analytics.
@@ -8,7 +9,7 @@ disableKinds = ["section", "taxonomy", "term"]
 
     [params.gallerydeluxe]
         # Shuffle the images in the gallery to give the impression of a new gallery each page load.
-        shuffle = false
+        shuffle = true
 
         # Reverse the order of the images in the gallery.
         reverse = true

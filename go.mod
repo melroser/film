@@ -1,4 +1,4 @@
-module github.com/bep/gallerydeluxe_starter
+module github.com/melroser/film
 
 go 1.19
 
